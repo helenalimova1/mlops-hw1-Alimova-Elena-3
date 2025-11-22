@@ -1,4 +1,6 @@
 [core]
-    remote = localstorage
+    remote = newstorage
 ['remote "localstorage"']
+    url = ../dvc-storage
+['remote "newstorage"']
     url = ../dvc-storage
